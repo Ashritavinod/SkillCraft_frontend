@@ -11,7 +11,7 @@ export default function App() {
   const handleGenerate = async () => {
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:8080/generate", {
+      const response = await axios.post("https://skillcraft-backend.onrender.com/generate", {
         current_skills: skills.split(",").map((s) => s.trim()),
         target_role: role,
       });
