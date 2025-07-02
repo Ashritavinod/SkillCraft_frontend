@@ -30,3 +30,10 @@
     "vite": "^6.3.5"
   }
 }
+
+"vite": {
+  "build": {
+    "target": "esnext"
+  }
+}
+
