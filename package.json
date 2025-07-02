@@ -28,7 +28,7 @@
     "postcss": "^8.5.5",
     "tailwindcss": "^4.1.10",
     "vite": "^6.3.5",
-    "rollup": "^2.75.0"
+    "rollup": "2.75.0"
   },
   "vite": {
     "build": {
